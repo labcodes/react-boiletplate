@@ -1,0 +1,33 @@
+{
+  "name": "react-boilerplate",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start src/index.js",
+    "build": "react-scripts build src/index.js"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "prop-types": "^15.6.1",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-redux": "^5.0.7",
+    "redux": "^3.2.1",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-loader": "^8.0.5",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-react-hmre": "^1.1.1",
+    "node-sass": "^4.11.0",
+    "react-scripts": "^2.1.8",
+    "webpack": "4.28.3"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
