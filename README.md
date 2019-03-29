@@ -1,5 +1,5 @@
 
-# react-boilerplate
+# processo-seletivo-frontend
 
 This repository contains the most basic implementation of react with redux and sass.
 
