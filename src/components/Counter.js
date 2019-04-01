@@ -2,8 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 const Counter = ({increment, incrementIfOdd, incrementAsync, decrement, counter}) => (
-  <p>
-    Clicked: {counter} times
+  <React.Fragment>
+    <p>Clicked: {counter} times</p>
     {' '}
     <button onClick={increment}>+</button>
     {' '}
@@ -12,7 +12,7 @@ const Counter = ({increment, incrementIfOdd, incrementAsync, decrement, counter}
     <button onClick={incrementIfOdd}>Increment if odd</button>
     {' '}
     <button onClick={() => incrementAsync()}>Increment async</button>
-  </p>
+  </React.Fragment>
 )
 
 Counter.propTypes = {

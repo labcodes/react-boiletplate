@@ -15,3 +15,7 @@ To run the live server, install the dependencies, then run `npm start` or `yarn 
 
 To build for production, install the dependencies, then run `npm run build` or `yarn build`.
 
+### Testing
+
+To run the tests `npm run test`.
+
